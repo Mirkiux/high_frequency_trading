@@ -1,5 +1,5 @@
 
-from otree.db.models import Model, ForeignKey
+from django.db.models import Model, ForeignKey
 from otree.api import models
 import csv
 from otree.common_internal import random_chars_8
